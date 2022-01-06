@@ -1,0 +1,25 @@
+# This file contains build requirements that get picked up but are
+# undesirable. One entry per line, no whitespace.
+Errlkjqweqwe-python
+_code-python
+_code.code-python
+_pytest._code-python
+_pytest.compat-python
+_pytest.fixtures-python
+alksdjalskdjalkjals-python
+apipkg-python
+asdalsdkjaslkdjasd-python
+asdfasdfasdf-python
+compat-python
+conftest-python
+does_not_work-python
+not_exists-python
+setuptools-scm
+sub1.conftest-python
+sub2.test_hello-python
+test_hello-python
+test_one-python
+test_one.part1-python
+tox
+xyz-python
+unittest2

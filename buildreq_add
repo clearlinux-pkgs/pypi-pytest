@@ -1,0 +1,9 @@
+# This file contains additional build requirements that did not get
+# picked up automatically. One name per line, no whitespace.
+colorama
+execnet
+nose
+pexpect
+pytest-xdist
+setuptools_scm
+xmlschema
