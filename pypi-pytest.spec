@@ -34,7 +34,9 @@ BuildRequires : pypi(wheel)
 BuildRequires : pytest
 BuildRequires : pytest-xdist
 BuildRequires : xmlschema
-
+Provides: pytest
+Provides: pytest-python
+Provides: pytest-python3
 %description
 .. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg
 :target: https://docs.pytest.org/en/stable/
