@@ -4,7 +4,7 @@
 #
 Name     : pypi-pytest
 Version  : 6.2.5
-Release  : 169
+Release  : 170
 URL      : https://files.pythonhosted.org/packages/4b/24/7d1f2d2537de114bdf1e6875115113ca80091520948d370c964b88070af2/pytest-6.2.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4b/24/7d1f2d2537de114bdf1e6875115113ca80091520948d370c964b88070af2/pytest-6.2.5.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -14,15 +14,10 @@ Requires: pypi-pytest-bin = %{version}-%{release}
 Requires: pypi-pytest-license = %{version}-%{release}
 Requires: pypi-pytest-python = %{version}-%{release}
 Requires: pypi-pytest-python3 = %{version}-%{release}
-Requires: importlib_metadata
+Requires: pypi(importlib_metadata)
 BuildRequires : buildreq-distutils3
-Provides: pytest
-Provides: pytest-python
-Provides: pytest-python3
-BuildRequires : colorama
 BuildRequires : execnet
 BuildRequires : hypothesis
-BuildRequires : nose
 BuildRequires : pexpect
 BuildRequires : pypi(atomicwrites)
 BuildRequires : pypi(attrs)
@@ -38,7 +33,6 @@ BuildRequires : pypi(toml)
 BuildRequires : pypi(wheel)
 BuildRequires : pytest
 BuildRequires : pytest-xdist
-BuildRequires : setuptools_scm
 BuildRequires : xmlschema
 
 %description
@@ -101,7 +95,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641481151
+export SOURCE_DATE_EPOCH=1641515740
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
