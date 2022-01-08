@@ -4,7 +4,7 @@
 #
 Name     : pypi-pytest
 Version  : 6.2.5
-Release  : 172
+Release  : 173
 URL      : https://files.pythonhosted.org/packages/4b/24/7d1f2d2537de114bdf1e6875115113ca80091520948d370c964b88070af2/pytest-6.2.5.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4b/24/7d1f2d2537de114bdf1e6875115113ca80091520948d370c964b88070af2/pytest-6.2.5.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -16,27 +16,24 @@ Requires: pypi-pytest-python = %{version}-%{release}
 Requires: pypi-pytest-python3 = %{version}-%{release}
 Requires: pypi(importlib_metadata)
 BuildRequires : buildreq-distutils3
-BuildRequires : execnet
-BuildRequires : hypothesis
-BuildRequires : pexpect
 BuildRequires : pypi(atomicwrites)
 BuildRequires : pypi(attrs)
 BuildRequires : pypi(colorama)
+BuildRequires : pypi(execnet)
 BuildRequires : pypi(importlib_metadata)
 BuildRequires : pypi(iniconfig)
 BuildRequires : pypi(packaging)
+BuildRequires : pypi(pexpect)
 BuildRequires : pypi(pluggy)
 BuildRequires : pypi(py)
+BuildRequires : pypi(pytest)
+BuildRequires : pypi(pytest_xdist)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(toml)
 BuildRequires : pypi(wheel)
-BuildRequires : pytest
-BuildRequires : pytest-xdist
-BuildRequires : xmlschema
-Provides: pytest
-Provides: pytest-python
-Provides: pytest-python3
+BuildRequires : pypi(xmlschema)
+
 %description
 .. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg
 :target: https://docs.pytest.org/en/stable/
@@ -97,7 +94,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641515740
+export SOURCE_DATE_EPOCH=1641603092
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

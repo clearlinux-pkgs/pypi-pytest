@@ -1,7 +1,7 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
 pypi(colorama)
-execnet
-pexpect
-pytest-xdist
-xmlschema
+pypi(execnet)
+pypi(pexpect)
+pypi(pytest_xdist)
+pypi(xmlschema)
