@@ -33,6 +33,9 @@ BuildRequires : pypi(setuptools_scm)
 BuildRequires : pypi(toml)
 BuildRequires : pypi(wheel)
 BuildRequires : pypi(xmlschema)
+Provides: pytest
+Provides: pytest-python
+Provides: pytest-python3
 
 %description
 .. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg
