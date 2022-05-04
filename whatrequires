@@ -163,6 +163,7 @@ pypi-pyopenssl
 pypi-pyparsing
 pypi-pyperf
 pypi-pyscss
+pypi-pytest
 pypi-pytest_asyncio
 pypi-pytest_cov
 pypi-pytest_forked

@@ -4,7 +4,7 @@
 #
 Name     : pypi-pytest
 Version  : 7.1.2
-Release  : 174
+Release  : 175
 URL      : https://files.pythonhosted.org/packages/4e/1f/34657c6ac56f3c58df650ba41f8ffb2620281ead8e11bcdc7db63cf72a78/pytest-7.1.2.tar.gz
 Source0  : https://files.pythonhosted.org/packages/4e/1f/34657c6ac56f3c58df650ba41f8ffb2620281ead8e11bcdc7db63cf72a78/pytest-7.1.2.tar.gz
 Summary  : pytest: simple powerful testing with Python
@@ -28,6 +28,7 @@ BuildRequires : pypi(tomli)
 BuildRequires : pypi(wheel)
 BuildRequires : pypi-hypothesis
 BuildRequires : pypi-pytest
+BuildRequires : pypi-xmlschema
 
 %description
 .. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg
@@ -89,7 +90,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1651686198
+export SOURCE_DATE_EPOCH=1651702166
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -105,7 +106,7 @@ python3 -m build --wheel --skip-dependency-check --no-isolation
 export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
-pytest --verbose || :
+pytest || :
 %install
 export MAKEFLAGS=%{?_smp_mflags}
 rm -rf %{buildroot}
