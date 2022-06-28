@@ -28,16 +28,18 @@ pathos
 pox
 ppft
 pynvim
+pypi-aiosmtpd
+pypi-altgraph
 pypi-ansi2html
 pypi-ansible_compat
 pypi-anyio
-pypi-apipkg
 pypi-appdirs
 pypi-argcomplete
 pypi-argon2_cffi
 pypi-argon2_cffi_bindings
 pypi-arrow
 pypi-asttokens
+pypi-atpublic
 pypi-attrs
 pypi-babel
 pypi-backports.entry_points_selectable
@@ -121,11 +123,13 @@ pypi-lazy_object_proxy
 pypi-libarchive_c
 pypi-logilab_common
 pypi-lz4
+pypi-macholib
 pypi-mako
 pypi-markdown_it_py
 pypi-matplotlib
 pypi-mido
 pypi-mkdocs_material_extensions
+pypi-modulegraph
 pypi-molecule
 pypi-molecule_docker
 pypi-more_itertools
@@ -134,6 +138,7 @@ pypi-myst_parser
 pypi-natsort
 pypi-nibabel
 pypi-nltk
+pypi-ovirt_imageio
 pypi-paste
 pypi-patsy
 pypi-pbr
@@ -141,6 +146,7 @@ pypi-pep517
 pypi-perl
 pypi-persistent
 pypi-pid
+pypi-pip_tools
 pypi-pkginfo
 pypi-platformdirs
 pypi-portend
@@ -167,6 +173,7 @@ pypi-pytest
 pypi-pytest_asyncio
 pypi-pytest_cov
 pypi-pytest_forked
+pypi-pytest_localserver
 pypi-pytest_mock
 pypi-pytest_repeat
 pypi-pytest_rerunfailures
@@ -186,6 +193,7 @@ pypi-requests_mock
 pypi-requests_toolbelt
 pypi-responses
 pypi-retry
+pypi-retype
 pypi-rfc3986
 pypi-salib
 pypi-selectors2
@@ -206,11 +214,14 @@ pypi-sphinxcontrib_applehelp
 pypi-sphinxcontrib_devhelp
 pypi-sphinxcontrib_htmlhelp
 pypi-sphinxcontrib_jsmath
+pypi-sphinxcontrib_openapi
 pypi-sphinxcontrib_programoutput
 pypi-sphinxcontrib_qthelp
+pypi-sphinxcontrib_redoc
 pypi-sphinxcontrib_serializinghtml
 pypi-sphinxcontrib_websupport
 pypi-sqlalchemy
+pypi-sqlparse
 pypi-stack_data
 pypi-statsmodels
 pypi-subprocess_tee
@@ -218,6 +229,7 @@ pypi-sure
 pypi-tabulate
 pypi-tblib
 pypi-tempora
+pypi-texttable
 pypi-tldextract
 pypi-toml
 pypi-tox
@@ -259,4 +271,3 @@ qstylizer
 scikit-learn
 scour
 simplejson
-texttable
