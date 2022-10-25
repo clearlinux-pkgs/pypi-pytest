@@ -31,6 +31,7 @@ pynvim
 pypi-aiosmtpd
 pypi-altgraph
 pypi-ansi2html
+pypi-ansible_builder
 pypi-ansible_compat
 pypi-anyio
 pypi-appdirs
@@ -90,7 +91,6 @@ pypi-flake8_docstrings
 pypi-flask
 pypi-flit
 pypi-fontmath
-pypi-fsspec
 pypi-funcparserlib
 pypi-gql
 pypi-graphql_core
@@ -133,6 +133,7 @@ pypi-macholib
 pypi-mako
 pypi-markdown_it_py
 pypi-matplotlib
+pypi-mdit_py_plugins
 pypi-mido
 pypi-mkdocs_material_extensions
 pypi-modulegraph
@@ -147,6 +148,7 @@ pypi-nibabel
 pypi-nltk
 pypi-ovirt_imageio
 pypi-paste
+pypi-pastedeploy
 pypi-pathspec
 pypi-patsy
 pypi-pbr
@@ -168,7 +170,6 @@ pypi-pybtex
 pypi-pycares
 pypi-pydot_ng
 pypi-pyelftools
-pypi-pyfakefs
 pypi-pyjwt
 pypi-pymdown_extensions
 pypi-pynacl
@@ -203,7 +204,6 @@ pypi-responses
 pypi-retry
 pypi-retype
 pypi-rfc3986
-pypi-salib
 pypi-selectors2
 pypi-selectors34
 pypi-selinux
@@ -236,6 +236,7 @@ pypi-sure
 pypi-tabulate
 pypi-tblib
 pypi-tempora
+pypi-termcolor
 pypi-texttable
 pypi-tldextract
 pypi-toml
