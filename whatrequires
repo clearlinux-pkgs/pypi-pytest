@@ -210,7 +210,6 @@ pypi-selinux
 pypi-semantic_version
 pypi-sentinels
 pypi-seqdiag
-pypi-serpent
 pypi-setuptools_scm
 pypi-six
 pypi-soupsieve
@@ -259,7 +258,6 @@ pypi-wsgiproxy2
 pypi-wsproto
 pypi-xmlschema
 pypi-yapf
-pypi-zc.lockfile
 pypi-zipp
 pypi-zope.deferredimport
 pypi-zope.deprecation
@@ -268,13 +266,13 @@ pypi-zope.exceptions
 pypi-zope.hookable
 pypi-zope.i18nmessageid
 pypi-zope.schema
-pypi-zope.testing
 pypi-zope.testrunner
 pypi-zopfli
 python-remoto
 python-rpm-packaging
 python-utils
 python-zeep
+pyudev
 qstylizer
 scikit-learn
 scour
