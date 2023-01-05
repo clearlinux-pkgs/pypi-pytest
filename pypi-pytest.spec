@@ -4,7 +4,7 @@
 #
 Name     : pypi-pytest
 Version  : 7.2.0
-Release  : 186
+Release  : 187
 URL      : https://files.pythonhosted.org/packages/0b/21/055f39bf8861580b43f845f9e8270c7786fe629b2f8562ff09007132e2e7/pytest-7.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/0b/21/055f39bf8861580b43f845f9e8270c7786fe629b2f8562ff09007132e2e7/pytest-7.2.0.tar.gz
 Summary  : pytest: simple powerful testing with Python
