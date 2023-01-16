@@ -1,6 +1,5 @@
 # This file contains recursive sources that require this package
 MarkupSafe
-PyMySQL
 PySocks
 bind-utils
 borgbackup
@@ -44,10 +43,6 @@ pypi-atpublic
 pypi-attrs
 pypi-automat
 pypi-babel
-pypi-backports.entry_points_selectable
-pypi-backports.functools_lru_cache
-pypi-backports.shutil_get_terminal_size
-pypi-backports.weakref
 pypi-bcrypt
 pypi-beautifulsoup4
 pypi-black
@@ -86,7 +81,6 @@ pypi-execnet
 pypi-executing
 pypi-falcon
 pypi-fastimport
-pypi-filelock
 pypi-flake8_docstrings
 pypi-flask
 pypi-flit
@@ -110,7 +104,6 @@ pypi-importlib_metadata
 pypi-importlib_resources
 pypi-incremental
 pypi-inflect
-pypi-iniconfig
 pypi-iso8601
 pypi-jaraco.classes
 pypi-jaraco.collections
@@ -155,10 +148,10 @@ pypi-pbr
 pypi-pep517
 pypi-perl
 pypi-persistent
+pypi-picobox
 pypi-pid
 pypi-pip_tools
 pypi-pkginfo
-pypi-platformdirs
 pypi-portend
 pypi-posix_ipc
 pypi-prettytable
@@ -167,7 +160,6 @@ pypi-py
 pypi-pyasn1
 pypi-pybind11
 pypi-pybtex
-pypi-pycares
 pypi-pydot_ng
 pypi-pyelftools
 pypi-pyjwt
@@ -177,6 +169,8 @@ pypi-pynsist
 pypi-pyopenssl
 pypi-pyparsing
 pypi-pyperf
+pypi-pyproject_api
+pypi-pyproject_hooks
 pypi-pyscss
 pypi-pytest
 pypi-pytest_asyncio
@@ -204,6 +198,8 @@ pypi-responses
 pypi-retry
 pypi-retype
 pypi-rfc3986
+pypi-rfc3986_validator
+pypi-scrypt
 pypi-selectors2
 pypi-selectors34
 pypi-selinux
@@ -229,7 +225,6 @@ pypi-sphinxcontrib_websupport
 pypi-sqlalchemy
 pypi-sqlparse
 pypi-stack_data
-pypi-statsmodels
 pypi-subprocess_tee
 pypi-sure
 pypi-tabulate
@@ -249,6 +244,7 @@ pypi-unidecode
 pypi-urlobject
 pypi-userpath
 pypi-waitress
+pypi-watchdog
 pypi-webcolors
 pypi-webob
 pypi-webtest
@@ -272,8 +268,7 @@ python-remoto
 python-rpm-packaging
 python-utils
 python-zeep
-pyudev
 qstylizer
-scikit-learn
 scour
 simplejson
+sshuttle
