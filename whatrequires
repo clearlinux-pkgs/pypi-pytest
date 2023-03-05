@@ -17,6 +17,7 @@ intelhex
 jdcal
 knack
 libvirt-python
+libwacom
 memkind
 mod_wsgi
 multiprocess
@@ -139,6 +140,7 @@ pypi-myst_parser
 pypi-natsort
 pypi-nibabel
 pypi-nltk
+pypi-ordered_set
 pypi-ovirt_imageio
 pypi-paste
 pypi-pastedeploy
@@ -207,6 +209,7 @@ pypi-semantic_version
 pypi-sentinels
 pypi-seqdiag
 pypi-setuptools_scm
+pypi-sh
 pypi-six
 pypi-soupsieve
 pypi-sphinx
