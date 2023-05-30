@@ -23,3 +23,5 @@ test_one.part1-python
 tox
 xyz-python
 unittest2
+pypi(no:capture")
+pypi(no:capture)

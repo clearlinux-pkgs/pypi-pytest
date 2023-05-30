@@ -1,3 +1,6 @@
-7.2.2
-pypi-hypothesis
+7.3.1
+pypi(hypothesis)
+pypi(no:capture")
+pypi(no:capture)
+pypi(xmlschema)
 pypi-pytest
