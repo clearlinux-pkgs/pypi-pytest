@@ -1,6 +1,5 @@
-7.3.1
+7.3.2
+pypi(attr)
 pypi(hypothesis)
-pypi(no:capture")
-pypi(no:capture)
 pypi(xmlschema)
 pypi-pytest

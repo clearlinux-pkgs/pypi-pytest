@@ -43,6 +43,7 @@ pypi-argon2_cffi_bindings
 pypi-arrow
 pypi-asttokens
 pypi-atpublic
+pypi-attr
 pypi-attrs
 pypi-automat
 pypi-babel
@@ -88,6 +89,7 @@ pypi-execnet
 pypi-executing
 pypi-falcon
 pypi-fastimport
+pypi-fixtures
 pypi-flake8_docstrings
 pypi-flask
 pypi-flit
@@ -263,6 +265,7 @@ pypi-twine
 pypi-typing_extensions
 pypi-tzdata
 pypi-uc_micro_py
+pypi-ufo2ft
 pypi-ufolib2
 pypi-uharfbuzz
 pypi-unidecode
