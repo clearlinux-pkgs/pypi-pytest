@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-pytest
-Version  : 7.3.2
-Release  : 191
-URL      : https://files.pythonhosted.org/packages/58/2a/07c65fdc40846ecb8a9dcda2c38fcb5a06a3e39d08d4a4960916431951cb/pytest-7.3.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/58/2a/07c65fdc40846ecb8a9dcda2c38fcb5a06a3e39d08d4a4960916431951cb/pytest-7.3.2.tar.gz
+Version  : 7.4.0
+Release  : 192
+URL      : https://files.pythonhosted.org/packages/a7/f3/dadfbdbf6b6c8b5bd02adb1e08bc9fbb45ba51c68b0893fa536378cdf485/pytest-7.4.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/a7/f3/dadfbdbf6b6c8b5bd02adb1e08bc9fbb45ba51c68b0893fa536378cdf485/pytest-7.4.0.tar.gz
 Summary  : pytest: simple powerful testing with Python
 Group    : Development/Tools
 License  : MIT
@@ -73,10 +73,10 @@ python3 components for the pypi-pytest package.
 
 
 %prep
-%setup -q -n pytest-7.3.2
-cd %{_builddir}/pytest-7.3.2
+%setup -q -n pytest-7.4.0
+cd %{_builddir}/pytest-7.4.0
 pushd ..
-cp -a pytest-7.3.2 buildavx2
+cp -a pytest-7.4.0 buildavx2
 popd
 
 %build
@@ -84,7 +84,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1686841841
+export SOURCE_DATE_EPOCH=1687535384
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
