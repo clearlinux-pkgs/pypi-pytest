@@ -185,7 +185,6 @@ pypi-pyasn1
 pypi-pybind11
 pypi-pybtex
 pypi-pydot_ng
-pypi-pyelftools
 pypi-pygithub
 pypi-pyjwt
 pypi-pynacl
@@ -234,7 +233,6 @@ pypi-seqdiag
 pypi-setuptools_scm
 pypi-sh
 pypi-six
-pypi-soupsieve
 pypi-sphinx
 pypi-sphinx_ansible_theme
 pypi-sphinx_design
