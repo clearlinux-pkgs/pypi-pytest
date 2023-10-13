@@ -1,5 +1,6 @@
 7.4.2
 pypi(attr)
 pypi(hypothesis)
+pypi(pytest)
 pypi(xmlschema)
 pypi-pytest
