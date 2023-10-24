@@ -23,7 +23,6 @@ mod_wsgi
 multiprocess
 mypy
 nose-parameterized
-ntlm-auth
 pathos
 pox
 ppft
@@ -140,6 +139,7 @@ pypi-license_expression
 pypi-linkchecker
 pypi-linkify_it_py
 pypi-logilab_common
+pypi-looseversion
 pypi-lz4
 pypi-macholib
 pypi-mako
@@ -231,7 +231,6 @@ pypi-selectors34
 pypi-selinux
 pypi-semantic_version
 pypi-sentinels
-pypi-seqdiag
 pypi-setuptools_scm
 pypi-sh
 pypi-six

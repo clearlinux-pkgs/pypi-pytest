@@ -1,6 +1,5 @@
-7.4.2
+7.4.3
 pypi(attr)
 pypi(hypothesis)
-pypi(pytest)
 pypi(xmlschema)
 pypi-pytest
