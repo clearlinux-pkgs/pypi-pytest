@@ -25,3 +25,4 @@ xyz-python
 unittest2
 pypi(no:capture")
 pypi(no:capture)
+pypi(_pytest._io.pprint)

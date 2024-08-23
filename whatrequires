@@ -16,6 +16,7 @@ intelhex
 jdcal
 knack
 lib4sbom
+libvirt
 libvirt-python
 libwacom
 memkind
@@ -38,11 +39,12 @@ pypi-argcomplete
 pypi-argon2_cffi
 pypi-argon2_cffi_bindings
 pypi-arrow
+pypi-asgiref
 pypi-asttokens
-pypi-atpublic
 pypi-attr
 pypi-attrs
 pypi-automat
+pypi-awxkit
 pypi-babel
 pypi-bcrypt
 pypi-beartype
@@ -57,6 +59,7 @@ pypi-booleanoperations
 pypi-build
 pypi-cachetools
 pypi-capturer
+pypi-cattrs
 pypi-cffsubr
 pypi-check_jsonschema
 pypi-check_manifest
@@ -79,23 +82,28 @@ pypi-devpi_common
 pypi-devpi_process
 pypi-devpi_server
 pypi-dill
+pypi-distlib
+pypi-django
 pypi-django_appconf
 pypi-django_compressor
-pypi-docutils
 pypi-ecdsa
 pypi-elementpath
 pypi-enrich
+pypi-eventlet
 pypi-execnet
 pypi-executing
+pypi-expandvars
 pypi-falcon
 pypi-fastimport
 pypi-filelock
 pypi-fixtures
 pypi-flake8_docstrings
+pypi-flake8_isort
 pypi-flask
 pypi-flit
 pypi-fontmath
 pypi-freetype_py
+pypi-freezegun
 pypi-funcparserlib
 pypi-glyphslib
 pypi-gql
@@ -125,13 +133,13 @@ pypi-jaraco.functools
 pypi-jaraco.text
 pypi-jarn.viewdoc
 pypi-javaproperties
-pypi-josepy
 pypi-jsonpickle
 pypi-jsonschema
 pypi-jupyter_cache
 pypi-jupyter_core
 pypi-khal
 pypi-kubernetes
+pypi-langcodes
 pypi-lazy
 pypi-lazy_object_proxy
 pypi-libarchive_c
@@ -157,6 +165,7 @@ pypi-myst_parser
 pypi-natsort
 pypi-nibabel
 pypi-nltk
+pypi-nodeenv
 pypi-openstep_plist
 pypi-ordered_set
 pypi-ovirt_imageio
@@ -167,6 +176,7 @@ pypi-pathspec
 pypi-patsy
 pypi-pbr
 pypi-pdm
+pypi-ped
 pypi-pep517
 pypi-perl
 pypi-persistent
@@ -176,7 +186,6 @@ pypi-pipdeptree
 pypi-pkginfo
 pypi-plaster
 pypi-plaster_pastedeploy
-pypi-platformdirs
 pypi-portalocker
 pypi-portend
 pypi-posix_ipc
@@ -187,7 +196,9 @@ pypi-pyasn1
 pypi-pybind11
 pypi-pybtex
 pypi-pydot_ng
+pypi-pyfakefs
 pypi-pygithub
+pypi-pygments
 pypi-pyjwt
 pypi-pynacl
 pypi-pynsist
@@ -195,7 +206,6 @@ pypi-pyopenssl
 pypi-pyparsing
 pypi-pyperf
 pypi-pyproject_api
-pypi-pyproject_hooks
 pypi-pyramid
 pypi-pyscss
 pypi-pytest
@@ -237,6 +247,7 @@ pypi-six
 pypi-sphinx
 pypi-sphinx_ansible_theme
 pypi-sphinx_design
+pypi-sphinx_issues
 pypi-sphinxcontrib_applehelp
 pypi-sphinxcontrib_devhelp
 pypi-sphinxcontrib_htmlhelp
@@ -248,7 +259,6 @@ pypi-sphinxcontrib_redoc
 pypi-sphinxcontrib_serializinghtml
 pypi-sphinxcontrib_websupport
 pypi-sqlalchemy
-pypi-sqlparse
 pypi-stack_data
 pypi-subprocess_tee
 pypi-sure
@@ -259,7 +269,7 @@ pypi-termcolor
 pypi-texttable
 pypi-tldextract
 pypi-toml
-pypi-tox
+pypi-tornado
 pypi-translationstring
 pypi-twine
 pypi-typing_extensions
@@ -277,7 +287,6 @@ pypi-venusian
 pypi-versioneer
 pypi-waitress
 pypi-watchdog
-pypi-wcmatch
 pypi-wcwidth
 pypi-webob
 pypi-webtest
@@ -304,3 +313,4 @@ qstylizer
 scour
 simplejson
 sshuttle
+wireshark
