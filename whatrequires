@@ -169,6 +169,7 @@ pypi-nodeenv
 pypi-openstep_plist
 pypi-ordered_set
 pypi-ovirt_imageio
+pypi-paginate
 pypi-passlib
 pypi-paste
 pypi-pastedeploy
@@ -289,7 +290,6 @@ pypi-waitress
 pypi-watchdog
 pypi-wcwidth
 pypi-webob
-pypi-webtest
 pypi-werkzeug
 pypi-wsgiproxy2
 pypi-wsproto
