@@ -7,7 +7,7 @@
 #
 Name     : pypi-pytest
 Version  : 8.3.3
-Release  : 202
+Release  : 203
 URL      : https://files.pythonhosted.org/packages/8b/6c/62bbd536103af674e227c41a8f3dcd022d591f6eed5facb5a0f31ee33bbc/pytest-8.3.3.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8b/6c/62bbd536103af674e227c41a8f3dcd022d591f6eed5facb5a0f31ee33bbc/pytest-8.3.3.tar.gz
 Summary  : pytest: simple powerful testing with Python
