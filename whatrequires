@@ -23,6 +23,7 @@ memkind
 mod_wsgi
 multiprocess
 mypy
+netplan
 nose-parameterized
 pathos
 pox
@@ -58,14 +59,11 @@ pypi-boolean.py
 pypi-booleanoperations
 pypi-build
 pypi-cachetools
-pypi-capturer
 pypi-cattrs
-pypi-cffsubr
 pypi-check_jsonschema
 pypi-check_manifest
 pypi-cheetah3
 pypi-cheroot
-pypi-cherrypy
 pypi-click
 pypi-click_help_colors
 pypi-columnize
@@ -73,9 +71,11 @@ pypi-compreffor
 pypi-configparser
 pypi-contextlib2
 pypi-coverage
+pypi-crypt_r
 pypi-cssselect
 pypi-cu2qu
 pypi-datetime
+pypi-dependency_groups
 pypi-deprecated
 pypi-devpi_client
 pypi-devpi_common
@@ -104,6 +104,7 @@ pypi-flit
 pypi-fontmath
 pypi-freetype_py
 pypi-freezegun
+pypi-ftfy
 pypi-funcparserlib
 pypi-glyphslib
 pypi-gql
@@ -119,7 +120,6 @@ pypi-humanize
 pypi-hupper
 pypi-hyperframe
 pypi-hyperlink
-pypi-icalendar
 pypi-ijson
 pypi-importlib_metadata
 pypi-importlib_resources
@@ -127,10 +127,8 @@ pypi-incremental
 pypi-inflect
 pypi-iso8601
 pypi-jaraco.classes
-pypi-jaraco.collections
 pypi-jaraco.context
 pypi-jaraco.functools
-pypi-jaraco.text
 pypi-jarn.viewdoc
 pypi-javaproperties
 pypi-jsonpickle
@@ -202,7 +200,6 @@ pypi-pygithub
 pypi-pygments
 pypi-pyjwt
 pypi-pynacl
-pypi-pynsist
 pypi-pyopenssl
 pypi-pyparsing
 pypi-pyperf
@@ -233,7 +230,6 @@ pypi-requests_mock
 pypi-requests_toolbelt
 pypi-responses
 pypi-retry
-pypi-retype
 pypi-rfc3986
 pypi-rfc3986_validator
 pypi-scrypt
@@ -276,7 +272,6 @@ pypi-twine
 pypi-typing_extensions
 pypi-tzdata
 pypi-uc_micro_py
-pypi-ufo2ft
 pypi-ufolib2
 pypi-uharfbuzz
 pypi-unidecode
