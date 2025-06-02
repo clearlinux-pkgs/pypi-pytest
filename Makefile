@@ -1,5 +1,5 @@
 PKG_NAME := pypi-pytest
-URL = https://files.pythonhosted.org/packages/ae/3c/c9d525a414d506893f0cd8a8d0de7706446213181570cdbd766691164e40/pytest-8.3.5.tar.gz
+URL = https://files.pythonhosted.org/packages/fb/aa/405082ce2749be5398045152251ac69c0f3578c7077efc53431303af97ce/pytest-8.4.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
