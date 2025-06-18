@@ -21,7 +21,6 @@ libvirt-python
 libwacom
 memkind
 mod_wsgi
-multiprocess
 mypy
 netplan
 nose-parameterized
@@ -107,7 +106,6 @@ pypi-funcparserlib
 pypi-glyphslib
 pypi-gql
 pypi-graphql_core
-pypi-graphviz
 pypi-greenlet
 pypi-h5py
 pypi-hatch_fancy_pypi_readme
@@ -152,6 +150,7 @@ pypi-modulegraph
 pypi-molecule
 pypi-molecule_docker
 pypi-more_itertools
+pypi-multiprocess
 pypi-munch
 pypi-mypy_extensions
 pypi-myst_nb

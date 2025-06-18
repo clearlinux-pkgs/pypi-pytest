@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : pypi-pytest
-Version  : 8.4.0
-Release  : 207
-URL      : https://files.pythonhosted.org/packages/fb/aa/405082ce2749be5398045152251ac69c0f3578c7077efc53431303af97ce/pytest-8.4.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/fb/aa/405082ce2749be5398045152251ac69c0f3578c7077efc53431303af97ce/pytest-8.4.0.tar.gz
+Version  : 8.4.1
+Release  : 208
+URL      : https://files.pythonhosted.org/packages/08/ba/45911d754e8eba3d5a841a5ce61a65a685ff1798421ac054f85aa8747dfb/pytest-8.4.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/08/ba/45911d754e8eba3d5a841a5ce61a65a685ff1798421ac054f85aa8747dfb/pytest-8.4.1.tar.gz
 Summary  : pytest: simple powerful testing with Python
 Group    : Development/Tools
 License  : MIT
@@ -18,8 +18,11 @@ Requires: pypi-pytest-license = %{version}-%{release}
 Requires: pypi-pytest-python = %{version}-%{release}
 Requires: pypi-pytest-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
+BuildRequires : pypi(attr)
+BuildRequires : pypi(hypothesis)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(setuptools_scm)
+BuildRequires : pypi(xmlschema)
 BuildRequires : pypi-pytest
 # Suppress stripping binaries
 %define __strip /bin/true
@@ -73,10 +76,10 @@ python3 components for the pypi-pytest package.
 
 
 %prep
-%setup -q -n pytest-8.4.0
-cd %{_builddir}/pytest-8.4.0
+%setup -q -n pytest-8.4.1
+cd %{_builddir}/pytest-8.4.1
 pushd ..
-cp -a pytest-8.4.0 buildavx2
+cp -a pytest-8.4.1 buildavx2
 popd
 
 %build
@@ -84,7 +87,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1748896625
+export SOURCE_DATE_EPOCH=1750254799
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

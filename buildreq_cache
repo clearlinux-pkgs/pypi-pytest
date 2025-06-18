@@ -1,2 +1,5 @@
-8.4.0
+8.4.1
+pypi(attr)
+pypi(hypothesis)
+pypi(xmlschema)
 pypi-pytest
